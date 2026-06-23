@@ -1,0 +1,13 @@
+{
+  "companyName": "Contoso",
+  "users": 120,
+  "licenses": "Business Premium",
+  "copilotLicenses": 25,
+  "executiveSponsor": true,
+  "championsProgram": false,
+  "departments": [
+    "Sales",
+    "HR",
+    "Finance"
+  ]
+}
