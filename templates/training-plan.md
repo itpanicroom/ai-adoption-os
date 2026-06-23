@@ -1,0 +1,162 @@
+# Template: Training Plan
+
+> **Purpose:** This template defines the structure and content of the Training Plan artifact — a role-based training curriculum that ensures all users are equipped to use Microsoft 365 Copilot effectively.
+>
+> **Produced By:** Readiness Agent → Adoption Agent  
+> **CAF Phase:** Ready · Adopt  
+
+---
+
+## Instructions
+
+Replace all `[placeholder]` values with content generated from the organizational input profile and Scenario Pack role mappings. Training should be role-specific — not generic — to maximize relevance and engagement.
+
+---
+
+# Copilot Training Plan
+
+**Organization:** [Company Name]  
+**Training Period:** [Start Date] — [End Date]  
+**Target Audience:** [N] users across [departments]  
+**Date Created:** [Date]  
+
+---
+
+## Training Principles
+
+1. **Role-based first** — Users learn the use cases most relevant to their job, not generic features
+2. **Scenario-driven** — Training uses real workplace examples, not hypothetical demos
+3. **Short and actionable** — Sessions are ≤60 minutes; users leave with something to try immediately
+4. **Champion-reinforced** — Champions follow up in the days after training to encourage first use
+
+---
+
+## Training Modules
+
+### Module 1: Getting Started with Microsoft 365 Copilot
+
+**Audience:** All users  
+**Duration:** 45–60 minutes  
+**Format:** Live virtual session (or recorded for on-demand)  
+**Delivery:** IT team or adoption lead  
+
+**Content:**
+- What is Microsoft 365 Copilot and what can it do?
+- Where to find Copilot across Microsoft 365 apps
+- How to write a good prompt (Copilot prompting basics)
+- What Copilot can and cannot do (managing expectations)
+- Data privacy: what Copilot can see and what it cannot
+- Where to get help
+
+**Hands-on exercise:** Write your first three prompts in the M365 Copilot app
+
+---
+
+### Module 2: Copilot in Microsoft Teams
+
+**Audience:** All users  
+**Duration:** 30–45 minutes  
+**Format:** Live virtual or self-paced  
+**Delivery:** Champion lead  
+
+**Content:**
+- Summarizing meetings with Copilot
+- Using Copilot during a live meeting
+- Asking Copilot questions about chat conversations
+- Generating meeting follow-up content
+
+**Hands-on exercise:** Summarize a recent Teams meeting recording
+
+---
+
+### Module 3: Copilot in Outlook
+
+**Audience:** All users  
+**Duration:** 30 minutes  
+**Format:** Self-paced with champion support  
+**Delivery:** Self-paced resource  
+
+**Content:**
+- Drafting emails with Copilot
+- Summarizing long email threads
+- Using coaching suggestions to improve email tone and clarity
+- Scheduling assistance
+
+**Hands-on exercise:** Draft a response to a real email using Copilot
+
+---
+
+### Module 4: Role-Based Scenarios — [Department 1]
+
+**Audience:** [Department 1] employees  
+**Duration:** 30–45 minutes  
+**Format:** Live virtual  
+**Delivery:** Department champion  
+
+**Content:** *(Drawn from Scenario Pack — [Department 1] role)*  
+- Top 3–5 use cases for [Department 1] role
+- Live demonstration by champion
+- Guided practice with real work examples
+
+**Hands-on exercise:** Try one role-specific use case with a real work document
+
+---
+
+### Module 4: Role-Based Scenarios — [Department 2]
+
+*[Repeat Module 4 structure for each department in scope]*
+
+---
+
+### Module 5: Advanced Copilot — Prompting Techniques
+
+**Audience:** Power users and champions  
+**Duration:** 60 minutes  
+**Format:** Live virtual  
+**Delivery:** IT team or external partner  
+
+**Content:**
+- Advanced prompting techniques
+- Multi-step prompt workflows
+- Using Copilot Pages
+- Copilot in Word, PowerPoint, and Excel (deep dive)
+- Custom instructions and personalization
+
+---
+
+## Training Delivery Schedule
+
+| Week | Module | Audience | Format |
+|---|---|---|---|
+| Week -2 (pre-pilot) | Module 1: Getting Started | Pilot cohort | Live virtual |
+| Week -2 (pre-pilot) | Module 4: Role-Based Scenarios | Pilot cohort (by dept) | Live virtual |
+| Week -1 (pre-pilot) | Module 5: Advanced (Champions only) | Champions | Live virtual |
+| Week 2 (post-launch) | Module 2: Copilot in Teams | All pilot users | Self-paced |
+| Week 3 (post-launch) | Module 3: Copilot in Outlook | All pilot users | Self-paced |
+| Broad deployment week 1 | Modules 1–4 | All new users | Live virtual |
+
+---
+
+## Training Resources
+
+| Resource | Format | Link |
+|---|---|---|
+| Quick Start Guide | PDF / Markdown | [To be created] |
+| Role-Based Scenario Cards | PDF / Markdown | [To be created] |
+| Prompting Cheat Sheet | PDF / Markdown | [To be created] |
+| Microsoft Adoption Hub resources | Web | https://adoption.microsoft.com/en-us/copilot/ |
+| Copilot Lab (prompt practice) | Web app | https://copilot.cloud.microsoft/prompts |
+
+---
+
+## Training Effectiveness Measurement
+
+| Metric | Target | When Measured |
+|---|---|---|
+| Training completion rate | ≥90% of pilot cohort | End of Week -1 |
+| Post-training confidence score | ≥3.5/5 | Post-training survey |
+| First use within 5 days of training | ≥80% of trained users | Week 1 usage data |
+
+---
+
+*Generated by AI-AOS | Powered by the Copilot Success Kit Cookbook and Microsoft 365 Copilot Scenario Pack*
