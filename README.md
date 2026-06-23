@@ -1,6 +1,6 @@
 # AI Adoption Operating System (AI-AOS)
 
-> Translate Microsoft's AI Cloud Adoption Framework into actionable implementation plans.
+> AI-AOS operationalizes Microsoft's AI Cloud Adoption Framework by translating strategic guidance into actionable implementation plans.
 
 ---
 
@@ -34,6 +34,8 @@ Organizations often know they need to adopt AI. They frequently struggle to answ
 
 AI-AOS bridges that gap by acting as a structured, modular system that converts CAF guidance into prioritized, role-specific, phased implementation plans tailored to each organization's context.
 
+Most frameworks explain what good looks like. AI-AOS focuses on determining what should happen next.
+
 ---
 
 ## How It Differs From Assessments and Scoring Tools
@@ -65,6 +67,8 @@ The entire framework is structured around the six phases of Microsoft's AI Cloud
 
 These six phases are the permanent backbone of AI-AOS. Every component — Agents, Skills, Cookbooks, and Scenario Packs — maps back to one or more of these phases.
 
+End-to-end flow: **Input → CAF Lifecycle → Cookbooks → Scenario Packs → Artifacts**.
+
 ---
 
 ## System Architecture
@@ -89,11 +93,36 @@ Input
 | **Orchestrator** | Coordinates execution across agents and phases |
 | **Agents** | Coordinate adoption activities within specific CAF phases |
 | **Skills** | Reusable capabilities invoked by agents (e.g., stakeholder mapping, communications planning) |
-| **Cookbooks** | Knowledge assets containing implementation guidance for specific Microsoft technologies |
-| **Scenario Packs** | Technology-specific adoption guidance scoped to roles and use cases |
+| **Cookbooks** | CAF-aligned implementation guidance: objectives, checkpoints, recommendations, artifacts, and next actions |
+| **Scenario Packs** | Solution-specific adoption journeys: personas, use cases, and role-specific guidance |
 | **Artifacts** | Generated outputs consumed by users (plans, checklists, summaries, roadmaps) |
 
 The architecture is modular and extensible. New Cookbooks and Scenario Packs can be added without modifying the core lifecycle.
+
+In short: Cookbooks define **how to implement** in a CAF-aligned way, while Scenario Packs define **who does what, for which use cases, and in what sequence** for a specific solution.
+
+---
+
+## Example Outcome
+
+For a Microsoft 365 Copilot scenario with the following input:
+
+- 120 users
+- Microsoft 365 Business Premium
+- 25 Copilot licenses
+- Executive sponsor identified
+- No Champions Program
+
+AI-AOS should produce actionable outputs such as:
+
+- Executive Summary
+- Pilot Plan
+- Stakeholder Map
+- Training Plan
+- Governance Checklist
+- 90-Day Roadmap
+
+The objective is to generate concrete next steps and implementation artifacts, not maturity scores or readiness ratings.
 
 ---
 
